@@ -21,8 +21,8 @@ This will be a website that will have the following webpages
    4. If user selected multiple matches then two text boxes will be in between the two player pictures.
       The user can then enter the wins for each player in the respective text box.
       After entering the match info the user can click a button to submit matches.
-      The user will be prompted with the same confirmation window as described in part c.
-      1. The buttons described under part c. for the pictures still appear.
+      The user will be prompted with the same confirmation window as described in part iii.
+      1. The buttons described under part iii. for the pictures still appear.
 4. Tournament Brackets
    1. User will be able to create tournaments brackets
    2. When creating a bracket the user will select the following options:
