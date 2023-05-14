@@ -66,4 +66,33 @@ This is where the following features will be stored:
 
 All features will be executable via CLI.
 
+Database Structure:
+1. Players
+   1. Player ID - Unique Int
+   2. First Name - String
+   3. Last Name - String
+   4. Date of Birth - Date
+   5. Age - Int
+2. Total
+   1. Player ID - Unique Int (references Players ID)
+   2. Wins - Int
+   3. Losses - Int
+   4. ELO - Float
+3. Seasons
+   1. Player ID - Unique Int (references Players ID)
+   2. Season - Int
+   3. Wins - Int
+   4. Losses - Int
+   5. ELO - Float
+4. Matches
+   1. Season - Int
+   2. Datetime - Datetime
+   3. Player 1 ID - Int
+   4. Player 2 ID - Int
+   5. Winner - Int
+   6. Player 1 Before ELO - Float
+   7. Player 1 After ELO - Float
+   8. Player 2 Before ELO - Float
+   9. Player 3 After ELO - Float
+
 
