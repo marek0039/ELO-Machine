@@ -73,6 +73,7 @@ Database Structure:
    3. Last Name - String
    4. Date of Birth - Date
    5. Age - Int
+   6. Picture - URL
 2. Total
    1. Player ID - Unique Int (references Players ID)
    2. Wins - Int

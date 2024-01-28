@@ -1,0 +1,46 @@
+MVVM Structure:
+HTML = View
+Python = View Model
+SQL database = Model
+
+Classes:
+Leaderboard:
+    Queries and displays leaderboard info. Each season will be a separate leaderboard instance.
+
+Match:
+    Creates new match info. Asks the user for information such as player names and settings for the match.
+    Will then confirm the user input for match victor, then update db with match(es) info.
+
+Tournament:
+    Will create a tournament based on user inputs. Will create an instance of Bracket Class which will handle the updating of the bracket.
+
+Bracket:
+    Bracket itself of the tournament. Tournament will hold an instance of the bracket.
+
+Navigator:
+    Used to navigate between pages. (Note: Rules page does not require backend except for Navigator)
+
+
+Leaderboard Functionality:
+    Variables:
+    Season (what season we are displaying). -1 will represent total season
+
+    Functions:
+    Constructor with Int Parameter: Will create a leaderboard based off of a season integer
+    Constructor with Boolean Parameter: If true, will create a season based on the current season.
+                                        False will create one for the previous season.
+    Query DB: Will query the db for info about the current season using API call.
+
+Match Functionality:
+    Variables:
+    Player 1 = int
+    Player 2 = int
+    ELO = boolean
+
+    Functions:
+    Set Player (Int PlayerNum): Will prompt the user to select via dropdown the player for the corresponding number
+
+
+
+
+
