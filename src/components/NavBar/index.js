@@ -8,7 +8,7 @@ import {
     NavLink,
     Bars,
     NavMenu,
-} from "./NavbarElements";
+} from "./NavBarElements";
 
 const Navbar = () => {
     return (
