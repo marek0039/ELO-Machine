@@ -19,9 +19,7 @@ const Home = () => {
     </div>
       <h6> Created By: Marek Niemyjski </h6>
       <h6> Contributed By: Nick Arredondo, Michael Ross, Jackie Dworaczyk, Matthew Merrill </h6>
-      <br>
-      <br>
-      <h3> Carpetball Basics </h3>
+      <h3> {"\n"}{"\n"}Carpetball Basics </h3>
       <p>
         Carpetball is a game which uses a unique table made of wood with a felt carpet on the inside surfaces.
         Table sizes can vary, but the table used at Marek's house is 2 feet wide, 12 feet long, and 3 feet, 7.5 inches tall.
