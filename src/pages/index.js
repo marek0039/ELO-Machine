@@ -24,7 +24,7 @@ const Home = () => {
         Carpetball is a game which uses a unique table made of wood with a felt carpet on the inside surfaces.
         Table sizes can vary, but the table used at Marek's house is 2 feet wide, 12 feet long, and 3 feet, 7.5 inches tall.
         Inside the table there is a 7 inch drop down, which is the game's playspace.
-        At each of the table there is an additional 3 inch pit where the felt carpet creates a hammock-like structure. <br>
+        At each of the table there is an additional 3 inch pit where the felt carpet creates a hammock-like structure. {"\n"}
         The game uses a standard billiard table ball set minus the 8 ball.
       </p>
     </body>
